@@ -4,7 +4,7 @@ import base64
 st.set_page_config(
     page_title="MaxNumFinder",
     page_icon=":notebook_with_decorative_cover:",
-    layout="wide"
+    # layout="wide"
 )
 
 def get_base64(bin_file):
