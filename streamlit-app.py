@@ -18,7 +18,7 @@ def set_background(png_file):
     ''' % bin_str
     st.markdown(page_bg_img, unsafe_allow_html=True)
 
-set_background('https://github.com/hsr-22/MaxNumFinder-Streamlit/blob/main/app-bkg.png')
+set_background('app-bkg.png')
 
 def find_largest(num1, num2, num3):
     return max(num1, num2, num3)
