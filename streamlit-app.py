@@ -37,5 +37,6 @@ num3 = st.number_input('Enter your third', value=0)
 
 if st.button('Find the Largest'):
     result = find_largest(num1, num2, num3)
+    st.markdown('<span style="color:blue;">The largest one is <b>{result}</b></span>', unsafe_allow_html=True)
     # st.write(f'The largest one is {result}')
-    st.markdown(f'<p style="color:blue;">The largest one is **{result}**</p>', unsafe_allow_html=True)
+    # st.markdown(f'<p style="color:blue;">The largest one is **{result}**</p>', unsafe_allow_html=True)
