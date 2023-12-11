@@ -1,6 +1,12 @@
 import streamlit as st
 import base64
 
+st.set_page_config(
+    page_title="MaxNumFinder",
+    page_icon=":notebook_with_decorative_cover:",
+    layout="wide"
+)
+
 def get_base64(bin_file):
     with open(bin_file, 'rb') as f:
         data = f.read()
